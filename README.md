@@ -12,6 +12,7 @@
 
 *MENTOR*: NEELA SANTOSH
 
+*DESCRIPTION*:
 In today's data-driven world, businesses thrive on their ability to make informed decisions backed by data analytics. One crucial area where machine learning plays a significant role is predictive analysis—forecasting outcomes using historical data. This project demonstrates the practical application of machine learning techniques to predict customer churn, which is the propensity of customers to leave a company's service. Customer churn prediction is vital for companies, especially those in the subscription or telecom industry, as retaining customers is often more cost-effective than acquiring new ones.
 For this project, we used the Telco Customer Churn dataset, a popular open-source dataset that includes various features such as customer demographics, account information, service subscription details, and churn status (Yes/No). The primary objective is to build a model that accurately classifies whether a customer will churn or stay, enabling proactive customer retention strategies.
 The first phase of the project involved data preprocessing, a critical step in preparing raw data for machine learning models. We handled missing values, converted data types (e.g., total charges from string to numeric), and encoded categorical variables using label encoding and one-hot encoding methods. Feature scaling was applied to numerical columns using StandardScaler to ensure that all features contribute equally to model training.
