@@ -1,0 +1,44 @@
+=== Sample Output: Customer Churn Prediction ===
+
+Best Parameters: {'max_depth': 20, 'min_samples_split': 2, 'n_estimators': 150}
+
+Model Performance on Test Data:
+--------------------------------
+Accuracy       : 0.835
+Precision      : 0.786
+Recall         : 0.803
+F1 Score       : 0.794
+ROC AUC Score  : 0.882
+
+Classification Report:
+------------------------
+              precision    recall  f1-score   support
+
+           0       0.86      0.87      0.87       999
+           1       0.79      0.80      0.79       708
+
+    accuracy                           0.84      1707
+   macro avg       0.82      0.83      0.83      1707
+weighted avg       0.83      0.84      0.83      1707
+
+Confusion Matrix:
+-------------------
+Predicted
+          0    1
+Actual  [[870 129]
+         [140 568]]
+
+Top 10 Important Features:
+----------------------------
+1. tenure
+2. MonthlyCharges
+3. TotalCharges
+4. Contract_Two year
+5. InternetService_Fiber optic
+6. PaymentMethod_Electronic check
+7. OnlineSecurity_No
+8. TechSupport_No
+9. SeniorCitizen
+10. StreamingTV_Yes
+
+(Visual plots like Confusion Matrix Heatmap and Feature Importance Bar chart are displayed when run in Jupyter or Python environment)
